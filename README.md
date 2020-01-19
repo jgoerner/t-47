@@ -79,14 +79,22 @@ The optional graph is incorporated as a Docker container, hence please [make sur
 ### Installation
 
 1. Clone this repository
-2. Run `to be defined`
-3. Open your webbrowser on `to be defined`
+2. Run `./scripts/run-neo4j.sh`
+3. Open your webbrowser on port `7474` and log in with `neo4j/test`
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-`to be defined`
+If this is the first time you log into the graph run the following Cypher query 
+
+`CALL t47.init`
+
+This procedure is part of [jgoerner/t-47-procedures](https://github.com/jgoerner/t-47-procedures) and constructs the graph from the csv file. 
+
+The current schema incluces 3 Nodes, **Assembly**, **Step**, **Part**:
+
+![schema](images/schema.png)
 
 
 <!-- ROADMAP -->
