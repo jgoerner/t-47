@@ -41,7 +41,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![about](images/about.gif)
+<p align="center">
+          <img src="images/about.gif">
+</p>
 
 > "Are the speeders ready?"<br>
 > "Not yet. We're having some trouble adapting them to the cold." <br>
@@ -86,9 +88,7 @@ The optional graph is incorporated as a Docker container, hence please [make sur
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-If this is the first time you log into the graph run the following Cypher query 
-
-`CALL t47.init`
+If this is the first time you log into the graph run the following Cypher query: `CALL t47.init`
 
 This procedure is part of [jgoerner/t-47-procedures](https://github.com/jgoerner/t-47-procedures) and constructs the graph from the csv file. 
 
