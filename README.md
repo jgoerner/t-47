@@ -41,7 +41,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot](images/screenshot.png)
+![about](images/about.gif)
 
 > "Are the speeders ready?"<br>
 > "Not yet. We're having some trouble adapting them to the cold." <br>
