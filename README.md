@@ -94,8 +94,9 @@ This procedure is part of [jgoerner/t-47-procedures](https://github.com/jgoerner
 
 The current schema incluces 3 Nodes, **Assembly**, **Step**, **Part**:
 
-![schema](images/schema.png)
-
+<p align="center">
+<img src="images/schema.png" alt="Schema" width="500">
+</p>
 
 <!-- ROADMAP -->
 ## Roadmap
