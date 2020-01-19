@@ -65,6 +65,7 @@ This repository contains
 
 ### Built With
 * [Neo4j](https://neo4j.com/)
+* Love ❤
 
 
 
@@ -97,6 +98,39 @@ The current schema incluces 3 Nodes, **Assembly**, **Step**, **Part**:
 <p align="center">
 <img src="images/schema.png" alt="Schema" width="500">
 </p>
+
+#### Assembly
+Each _Assembly_ refers to a number of steps that belong together.
+The field _desc_ refers to a higher level description of the assembly.
+```json
+{
+  "desc": "lower body"
+}
+```
+
+#### Step
+Each _Step_ refers to one of the blue boxes of the buiding instructions.
+The field _localID_ refers to the sequence number within the context of an assembly.
+The field _page_ refers to the page number of the assembly instructions.
+```json
+{
+  "localId": "1",
+  "page": "2"
+}
+```
+
+#### Par
+Each _Part_ refers to an original LEGO part.
+The field _pid_ refers to the original [LEGO part id](https://bricks.stackexchange.com/questions/154/how-do-i-identify-a-lego-part).
+The field _url_ refers to the online representation of the part from the [Rebrickable.com](https://rebrickable.com/) catalog.
+```json
+{
+  "pid": "2877",
+  "url": "https://rebrickable.com/parts/2877"
+}
+```
+
+
 
 <!-- ROADMAP -->
 ## Roadmap
